@@ -1,0 +1,15 @@
+{
+	"caret_style": "phase",
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/ayu/ayu-mirage.sublime-color-scheme",
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"line_padding_top": 15,
+	"remember_full_screen": true,
+	"save_on_focus_lost": false,
+	"theme": "ayu-mirage.sublime-theme",
+	"index_exclude_gitignore": false,
+}

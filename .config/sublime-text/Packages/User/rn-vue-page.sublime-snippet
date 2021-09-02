@@ -1,0 +1,66 @@
+<snippet>
+    <content><![CDATA[
+<template>
+    <app-page :title="pageTitle">
+        <template #header-right>
+            <nuxt-link :to="`/create-link`" class="btn btn-outline-secondary">
+                Add
+            </nuxt-link>
+        </template>
+        <app-panel title="Panel Title" :is-loading="false">
+            <template #right>
+                <app-button-filters
+                        :identifier="'fuelSourcesIndexFilter'"
+                        @filtered="filterChange($event)"
+                        :filters="filters">
+                </app-button-filters>
+            </template>
+        </app-panel>
+    </app-page>
+</template>
+
+<script>
+    import gql from 'graphql-tag';
+    import {mapGetters} from 'vuex';
+    import appPage from '~/components/app-page.vue';
+    import appPanel from '~/components/app-panel.vue';
+    import { HasError } from 'vform';
+
+    export default {
+        components: {
+            appPage,
+            appPanel,
+            HasError,
+        },
+        props: {
+        },
+        computed: {
+            ...mapGetters({
+                companySelectedId: 'user/companySelectedId',
+            }),
+            pageTitle() {
+                return 'Page Title';
+            }
+        },
+        methods: {
+
+        },
+    }
+</script>
+
+<style scoped lang="scss">
+    @import "~assets/sass/settings";
+    @import '~assets/sass/settings.import-tools';
+
+    // Media Queries - Example
+    @include media-breakpoint-up(lg) {
+
+    }
+</style>
+]]></content>
+    <!-- Content example: Hello, ${1:this} is a ${2:snippet}. -->
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rn-vue:page</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.js</scope> -->
+</snippet>

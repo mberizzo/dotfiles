@@ -1,0 +1,25 @@
+// SublimeLinter Settings - User
+{
+    "paths": {
+        "linux": [
+            "/usr/bin/php -l"
+        ],
+        "osx": [],
+        "windows": []
+    },
+    
+    // Lint Mode determines when the linter is run.
+    // - background: asynchronously on every change
+    // - load_save: when a file is opened and every time it's saved
+    // - manual: only when calling the Lint This View command
+    // - save: only when a file is saved
+    "lint_mode": "save",
+    
+    "linters": {
+        // The name of the linter you installed
+        "phplint": {
+            // Disables the linter. The default here is 'not set'
+            "disable": true,
+        }
+    },
+}

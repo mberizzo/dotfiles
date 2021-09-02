@@ -1,0 +1,37 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"ayu",
+		"ColorPicker",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"HTMLBeautify",
+		"Laravel Blade Highlighter",
+		"LESS",
+		"Minifier",
+		"October Twig Highlighter",
+		"Package Control",
+		"PHP Companion",
+		"PHP Completions Kit",
+		"PhpDoc",
+		"PlainTasks",
+		"Pretty JSON",
+		"ProjectManager",
+		"Sass",
+		"SCSS",
+		"SnippetMaker",
+		"SublimeLinter",
+		"SublimeLinter-php",
+		"SublimeLinter-phplint",
+		"Text Pastry",
+		"Theme - Dark Material",
+		"Vuejs Complete Package",
+		"Vuejs Snippets Airbnb",
+	],
+}

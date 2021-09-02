@@ -1,0 +1,19 @@
+# Git
+alias qwe='cd /srv/www'
+alias gs='git status'
+alias gac='git add .; git commit -m '
+alias gco='git checkout '
+
+# Servers
+alias selecto='ssh -p 5312 root@vps-1229399-x.dattaweb.com -o ServerAliveInterval=60'
+alias forge='ssh forge@198.211.99.167 -o ServerAliveInterval=60'
+
+
+# Docker
+alias d_fix_elastic='sudo sysctl -w vm.max_map_count=2621444' # le agrego un 4 al final
+alias dap='d_fix_elastic; cd /srv/www/Docker/laradock; docker-compose up -d elasticsearch redis nginx mysql adminer workspace laravel-echo-server selenium'
+alias rn:nuxt='cd /srv/www/Laravel/Routenavi/client; npx nuxt dev'
+alias ldk:bash='docker-compose exec --user laradock workspace bash'
+alias ldk:redis='docker-compose exec redis bash'
+alias ldk:mysql='docker-compose exec mysql mysql -uroot -proot'
+alias ldk:err="docker logs -f $(docker ps | grep nginx | awk -F $'[ ]{2,}' '{ print $7 }')"

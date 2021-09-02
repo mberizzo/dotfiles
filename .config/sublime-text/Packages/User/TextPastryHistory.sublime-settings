@@ -1,0 +1,160 @@
+{
+	"history":
+	[
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "1",
+					"stop": "18",
+				},
+				"command": "text_pastry_range",
+				"text": "range 1-18",
+			},
+			"key": "495dd05a29b26716322bb7d4bed8cc9b",
+			"label": "range 1-18",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "alert",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "alert",
+			},
+			"key": "7ed21143076d0cca420653d4345baa2f",
+			"label": "alert",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "range",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "range",
+			},
+			"key": "37b19816109a32106d109e83bbb3c97d",
+			"label": "range",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "$comp",
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter $comp",
+			},
+			"key": "60317c3709e5d14779897853cd043f72",
+			"label": "filter $comp",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "find: name",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "find: name",
+			},
+			"key": "8cc651f2d42e4395d621867dce61b915",
+			"label": "find: name",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": null,
+					"operator": null,
+					"pattern": "compIdentifier",
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "find compIdentifier",
+			},
+			"key": "ba6fe9044fc37901a2698814a63b2670",
+			"label": "find compIdentifier",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": null,
+					"operator": null,
+					"pattern": "name",
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "find name",
+			},
+			"key": "684499adb90c78ce37a900742ef46bfe",
+			"label": "find name",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "1",
+					"stop": "10",
+				},
+				"command": "text_pastry_range",
+				"text": "range 1-10",
+			},
+			"key": "daffea4a9e2df98e1be406b1b25c7769",
+			"label": "range 1-10",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "1",
+					"stop": "50",
+				},
+				"command": "text_pastry_range",
+				"text": "range 1-50",
+			},
+			"key": "ba21f4fb5015b6414bbe4412074470ae",
+			"label": "range 1-50",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "find ",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "find "
+			},
+			"key": "daeba7b6d5ce03b406c46cf82e5f5b0d",
+			"label": "find "
+		},
+	],
+	"last_command":
+	{
+		"args":
+		{
+			/*"start": "1",*/
+			/*"stop": "50"*/
+			"text": "find ",
+			"threshold": 3,
+		},
+		"command": "text_pastry_insert_text",
+		"text": "find ",
+	},
+}

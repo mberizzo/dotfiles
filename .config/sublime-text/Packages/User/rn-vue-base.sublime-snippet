@@ -1,0 +1,44 @@
+<snippet>
+    <content><![CDATA[
+<template>
+    $1
+</template>
+
+<script>
+    import gql from 'graphql-tag';
+    import {mapGetters} from 'vuex';
+    import { HasError } from 'vform';
+
+    export default {
+        components: {
+            HasError
+        },
+        props: {
+        },
+        computed: {
+            ...mapGetters({
+                companySelectedId: 'user/companySelectedId',
+            }),
+        },
+        methods: {
+        
+        },
+    }
+</script>
+
+<style scoped lang="scss">
+    @import "~assets/sass/settings";
+    @import '~assets/sass/settings.import-tools';
+
+    // Media Queries - Example
+    @include media-breakpoint-up(lg) {
+
+    }
+</style>
+]]></content>
+    <!-- Content example: Hello, ${1:this} is a ${2:snippet}. -->
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rn-vue:base</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.js</scope> -->
+</snippet>
