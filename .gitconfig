@@ -1,8 +1,5 @@
 [user]
 	email = matiasberizzo@gmail.com
 	name = Matias Berizzo
-[core]
-	autocrlf = false
-	safecrlf = false
 [credential]
 	helper = store

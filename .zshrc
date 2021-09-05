@@ -67,7 +67,7 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # aliases
-source ~/.bash_aliases
+source ~/.aliases
 
 # User configuration
 
